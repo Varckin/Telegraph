@@ -35,7 +35,6 @@ author_url (String, 0-512 characters) Default profile link, opened when users cl
         except KeyError:
             pass
             
-
     def editAccountInfo(self, access_token: str, short_name: str = "", author_name: str = "", author_url: str = "") -> dict:
         """
 access_token (String) Required. Access token of the Telegraph account.
