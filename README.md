@@ -1,3 +1,5 @@
+### **A simple library for the Telegraph API for working in the Python programming language.**
+
 ## ![Telegraph API Logo](https://telegra.ph/favicon.ico) Telegraph API library | Telegra.ph
 
 `Telegra.ph` is a minimalist publishing tool that allows you to create richly formatted posts and push them to the Web in just a click. Telegraph posts also get beautiful Instant View pages on Telegram.
@@ -15,8 +17,6 @@
 * **getPageList**: *List all pages for the authenticated account.*
 ### Analytics
 * **getViews**: *Get the view count for a specific article over time.*
-
-Here's the translated and formatted content for GitHub:
 
 ## Supported HTML Tags for Formatting Content in Telegraph API
 
@@ -236,8 +236,6 @@ The Telegraph API allows you to format content using various HTML tags when crea
     {"tag": "iframe", "attrs": {"src": "https://www.youtube.com/embed/dQw4w9WgXcQ"}}
 ]
 ```
-
-This list of tags allows you to create diverse pages with text, images, videos, links, and other elements.
 
 ## Available types
 All types used in the Telegraph API responses are represented as JSON-objects. Optional fields may be not returned when irrelevant.
